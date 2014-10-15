@@ -1,0 +1,17 @@
+{
+  "name"   : "magicshifter.net",
+  "version": "0.0.1",
+  "private": true,
+  "main"   : "./H.js",
+  "config" : {
+    "hosts"  : {
+      "development": [
+        "magicshifter.test"
+      ],
+      "production": [
+        "magicshifter.net",
+        "magicshifter.herokuapp.com"
+      ]
+    }
+  }
+}
